@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-do</title>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <div class="overlay " id="overlay"></div>
+    <div class="modal" id="modal">
+      <div class="modal__content">
+        <input class="modal_input" type="text" placeholder="напиши что нибудь...">
+        <p class="modal_title">выбери цвет</p>
+        <div class="color">
+
+          <div class="color__item-1"></div>
+          <div class="color__item-2"></div>
+          <div class="color__item-3"></div>
+        </div>
+        <button class="modal_btn">добавить</button>
+      </div>
+    </div>
+
+
+    <div class="content_box">
+      <div class="container">
+
+        <div class="header">
+          <div class="header-tab_content">
+            <div class="header_tab">активные </div>
+            <div class="header_tab">закрытые</div>
+            <div class="header_add">
+              <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V11H3C2.44772 11 2 11.4477 2 12C2 12.5523 2.44772 13 3 13H11V21C11 21.5523 11.4477 22 12 22C12.5523 22 13 21.5523 13 21V13H21C21.5523 13 22 12.5523 22 12C22 11.4477 21.5523 11 21 11H13V3Z"
+                  fill="#0F0F0F" />
+              </svg>
+
+            </div>
+
+          </div>
+
+        </div>
+        <div class="header_body">
+          <div class="header_body-item">
+            <div>помыть посуду</div>
+            <div class="header_body-icon">
+              <button class="delete_btn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="20" height="20"
+                  style="display: inline-block;">
+                  <path
+                    d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="header_body-item" style=" background-color: #0757eb;">
+            <div>помыть посуду</div>
+            <div class="header_body-icon">
+              <button class="delete_btn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="20" height="20"
+                  style="display: inline-block;">
+                  <path
+                    d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z" />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="header_body-item" style=" background-color: #e81111;">
+            <div>помыть посуду</div>
+            <div class="header_body-icon">
+              <button class="delete_btn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="20" height="20"
+                  style="display: inline-block;">
+                  <path
+                    d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
